@@ -1,0 +1,12 @@
+[package]
+name = "tests-setup-teardown-rs"
+license = "MIT OR Apache-2.0"
+version = "0.0.1"
+authors = ["xphoniex"]
+edition = "2021"
+
+[dependencies]
+tests-setup-teardown = { version = "0.0.1", path = "crates/tests-setup-teardown" }
+
+[workspace]
+members = ["crates/*"]

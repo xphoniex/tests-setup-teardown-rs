@@ -1,0 +1,17 @@
+[package]
+name = "tests-setup-teardown"
+license = "MIT OR Apache-2.0"
+description = "A macro to add `setup` and `teardown` on each test case"
+version = "0.0.1"
+authors = ["xphoniex"]
+edition = "2021"
+homepage = "https://github.com/xphoniex/tests-setup-teardown-rs"
+repository = "https://github.com/xphoniex/tests-setup-teardown-rs"
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0.107", features = ["full"] }
+quote = "1"
